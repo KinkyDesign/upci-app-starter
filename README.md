@@ -3,13 +3,19 @@
 This repository is a basic Schematic implementation that serves as a starting point to create and publish Schematics to NPM.
 
 ### Run
-Inside schematics project: `schematics .:upci-app-starter < new-project-name > --debug=false --force `
+Inside schematics project: 
+
+```bash
+schematics .:upci-app-starter < new-project-name > --debug=false --force 
+```
 e.g. `schematics .:upci-app-starter nanopot --debug=false --force `
 
 Inside < new-project-name >
-`npm run update:packages`
-`ng serve`
+```bash
+npm run update:packages
 
+ng serve
+```
 
 ### Testing
 
