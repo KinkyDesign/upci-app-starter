@@ -1,0 +1,11 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "extends": ["@schematics/angular"],
+  "schematics": {
+    "upci-app-starter": {
+      "description": "A blank schematic.",
+      "factory": "./upci-app-starter/index#newRepo",
+      "schema": "./upci-app-starter/schema.json"
+    }
+  }
+}
