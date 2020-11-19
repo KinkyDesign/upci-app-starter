@@ -2,8 +2,15 @@
 
 Schematic scaffolding of future apps' (basic project implementations) 
 
+
 ### Build and Run
-Navigate to schematics project: 
+
+Make sure schematics are installed to your workspace. 
+```bash
+  npm install -g @angular-devkit/schematics-cli
+  npm i @schematics/angular	
+```
+Navigate to schematics project:
 
 ```bash
 npm run build
@@ -11,7 +18,7 @@ schematics .:upci-app-starter < new-project-name > --debug=false --force
 ```
 e.g. `schematics .:upci-app-starter nanopot --debug=false --force `
 
-Navigate to < new-project-name >
+Navigate to the newly generated project:
 ```bash
 npm run update:packages
 
@@ -31,14 +38,6 @@ schematics --help
 
 `npm run test` will run the unit tests, using Jasmine as a runner and test framework.
 
-### Publishing
-
-To publish, simply do:
-
-```bash
-npm run build
-npm publish
-```
 
 That's it!
  
