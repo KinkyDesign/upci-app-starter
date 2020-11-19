@@ -1,6 +1,6 @@
 # Getting Started With Schematics
 
-This repository is a basic Schematic implementation that serves as a starting point to create and publish Schematics to NPM.
+Schematic scaffolding of future upci apps' (basic project implementations) 
 
 ### Build and Run
 Navigate to schematics project: 
