@@ -1,6 +1,6 @@
 # Upci-App-Starter
 
-Schematic scaffolding of future apps' (basic project implementations) 
+Schematic scaffolding of future apps (basic project implementations) 
 
 
 ### Build and Run
