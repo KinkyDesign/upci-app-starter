@@ -10,7 +10,7 @@ Make sure schematics are installed to your workspace.
   npm install -g @angular-devkit/schematics-cli
   npm i @schematics/angular	
 ```
-Navigate to schematics project:
+Into schematic's project path:
 
 ```bash
 npm run build
