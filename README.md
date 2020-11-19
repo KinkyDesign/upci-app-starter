@@ -1,6 +1,6 @@
-# Getting Started With Schematics
+# Upci-App-Starter
 
-Schematic scaffolding of future upci apps' (basic project implementations) 
+Schematic scaffolding of future apps' (basic project implementations) 
 
 ### Build and Run
 Navigate to schematics project: 
