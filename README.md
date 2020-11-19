@@ -3,14 +3,14 @@
 This repository is a basic Schematic implementation that serves as a starting point to create and publish Schematics to NPM.
 
 ### Run
-Inside schematics project: 
+Navigate to schematics project: 
 
 ```bash
 schematics .:upci-app-starter < new-project-name > --debug=false --force 
 ```
 e.g. `schematics .:upci-app-starter nanopot --debug=false --force `
 
-Inside < new-project-name >
+Navigate to < new-project-name >
 ```bash
 npm run update:packages
 
