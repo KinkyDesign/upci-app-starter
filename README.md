@@ -15,8 +15,9 @@ Into schematic's project path:
 ```bash
 npm run build
 schematics .:upci-app-starter < new-project-name > --debug=false --force 
+e.g. schematics .:upci-app-starter nanopot --debug=false --force 
 ```
-e.g. `schematics .:upci-app-starter nanopot --debug=false --force `
+
 
 Navigate to the newly generated project:
 ```bash
