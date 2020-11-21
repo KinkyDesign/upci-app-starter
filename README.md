@@ -1,29 +1,32 @@
 # Upci-App-Starter
 
-Schematic scaffolding of future apps (basic project implementations) 
+Implemented with Angular Schematics
 
 
 ### Build and Run
 
-Make sure schematics are installed to your workspace. 
+Make sure schematics are installed to your workspace: 
 ```bash
-  npm install -g @angular-devkit/schematics-cli
-  npm i @schematics/angular	
+> npm install -g @angular-devkit/schematics-cli
+> npm i @schematics/angular	
 ```
 Into schematic's project path:
 
 ```bash
-npm run build
-schematics .:upci-app-starter < new-project-name > --debug=false --force 
+> npm run build
+> schematics .:upci-app-starter <new-project-name> --debug=false --force 
 e.g. schematics .:upci-app-starter nanopot --debug=false --force 
 ```
-
+If you’d rather not create a new project from inside your current project, you can also `run your schematic from a different directory`, but the syntax is slightly different:
+```bash
+> schematics ./path/to/collection.json:upci-app-starter nanopot --debug=false --force 
+```
 
 Navigate to the newly generated project:
 ```bash
-npm run update:packages
+> npm run update:packages
 
-ng serve
+> ng serve
 ```
 
 ### Testing
@@ -39,6 +42,4 @@ schematics --help
 
 `npm run test` will run the unit tests, using Jasmine as a runner and test framework.
 
-
-That's it!
  
