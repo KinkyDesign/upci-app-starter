@@ -14,7 +14,6 @@ Into schematic's project path:
 
 ```bash
 > npm run build
-
 > schematics .:upci-app-starter <new-project-name> --debug=false --force 
 e.g. schematics .:upci-app-starter nanopot --debug=false --force 
 ```
@@ -26,7 +25,6 @@ If you’d rather not create a new project from inside your current project, you
 Navigate to the newly generated project:
 ```bash
 > npm run update:packages
-
 > ng serve
 ```
 
